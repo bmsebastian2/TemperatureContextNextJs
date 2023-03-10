@@ -2,7 +2,7 @@ import VentanaAutomatico from "../components/VentanaAutomtico";
 import Temeperature from "../components/Temperature";
 import { useContext } from "react";
 import { TemperatureContext } from "@/context/TemperatureProvider";
-const index = () => {
+const Index = () => {
   const { temperature, setTemperature } = useContext(TemperatureContext);
   return (
     <div
@@ -23,4 +23,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
